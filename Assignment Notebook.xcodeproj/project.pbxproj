@@ -13,6 +13,7 @@
 		3C09241E220A03DD002E503A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C09241C220A03DD002E503A /* Main.storyboard */; };
 		3C092420220A03E3002E503A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C09241F220A03E3002E503A /* Assets.xcassets */; };
 		3C092423220A03E3002E503A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C092421220A03E3002E503A /* LaunchScreen.storyboard */; };
+		3CB8E028220B4CEC0059D76B /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8E027220B4CEC0059D76B /* Assignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3C09241F220A03E3002E503A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C092422220A03E3002E503A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C092424220A03E3002E503A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB8E027220B4CEC0059D76B /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				3C092418220A03DD002E503A /* MasterViewController.swift */,
 				3C09241A220A03DD002E503A /* DetailViewController.swift */,
 				3C09241C220A03DD002E503A /* Main.storyboard */,
+				3CB8E027220B4CEC0059D76B /* Assignment.swift */,
 				3C09241F220A03E3002E503A /* Assets.xcassets */,
 				3C092421220A03E3002E503A /* LaunchScreen.storyboard */,
 				3C092424220A03E3002E503A /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB8E028220B4CEC0059D76B /* Assignment.swift in Sources */,
 				3C09241B220A03DD002E503A /* DetailViewController.swift in Sources */,
 				3C092419220A03DD002E503A /* MasterViewController.swift in Sources */,
 				3C092417220A03DD002E503A /* AppDelegate.swift in Sources */,
