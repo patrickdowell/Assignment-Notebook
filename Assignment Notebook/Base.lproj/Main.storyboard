@@ -37,6 +37,8 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SWA-1m-6Yf">
                                 <rect key="frame" x="112.5" y="94" width="150" height="30"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="0Ux-8e-djb"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Zkm-WU-DoP"/>
                                     <constraint firstAttribute="height" constant="30" id="caM-wr-B99"/>
                                     <constraint firstAttribute="width" constant="150" id="kIV-Gp-uug"/>
                                 </constraints>
@@ -48,17 +50,21 @@
                                 <rect key="frame" x="112.5" y="146" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="Hef-g6-2h6"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="NbL-eR-PmI"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="bkg-8B-7ZW"/>
                                     <constraint firstAttribute="height" constant="30" id="xoZ-7g-wgZ"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Due Date" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DYT-71-WsT">
-                                <rect key="frame" x="112.5" y="205" width="150" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Due Date" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DYT-71-WsT">
+                                <rect key="frame" x="112.5" y="200" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="dFN-2e-qBd"/>
                                     <constraint firstAttribute="width" constant="150" id="eHd-ca-Ggg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="wHx-W4-E0c"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="zN2-rS-cq4"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -67,7 +73,9 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nKc-nv-RFy">
                                 <rect key="frame" x="112.5" y="260" width="150" height="30"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="IBT-Od-Fzv"/>
                                     <constraint firstAttribute="height" constant="30" id="TyM-AL-zYM"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="eHm-jM-kzN"/>
                                     <constraint firstAttribute="width" constant="150" id="tn5-Db-GHb"/>
                                 </constraints>
                                 <nil key="textColor"/>
