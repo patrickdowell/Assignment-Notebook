@@ -90,6 +90,12 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Assignment Details" id="mOI-FS-AaM"/>
+                    <connections>
+                        <outlet property="descriptionTextField" destination="nKc-nv-RFy" id="CJk-YH-JGg"/>
+                        <outlet property="dueDateTextField" destination="DYT-71-WsT" id="0Xk-Jb-YxQ"/>
+                        <outlet property="subjectTextField" destination="F6M-OA-0Zy" id="uCv-6e-Boa"/>
+                        <outlet property="titleTextField" destination="SWA-1m-6Yf" id="3WI-d8-YGZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
