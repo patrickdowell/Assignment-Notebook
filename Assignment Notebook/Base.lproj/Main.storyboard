@@ -70,13 +70,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nKc-nv-RFy">
-                                <rect key="frame" x="112.5" y="260" width="150" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Description" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nKc-nv-RFy">
+                                <rect key="frame" x="112.5" y="260" width="150" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="IBT-Od-Fzv"/>
-                                    <constraint firstAttribute="height" constant="30" id="TyM-AL-zYM"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="eHm-jM-kzN"/>
-                                    <constraint firstAttribute="width" constant="150" id="tn5-Db-GHb"/>
+                                    <constraint firstAttribute="width" constant="150" id="v9u-WD-TfR"/>
+                                    <constraint firstAttribute="height" constant="150" id="wkV-5c-lNH"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -86,8 +84,10 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="nKc-nv-RFy" firstAttribute="top" secondItem="DYT-71-WsT" secondAttribute="bottom" constant="30" id="0hJ-X3-vde"/>
+                            <constraint firstItem="nKc-nv-RFy" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="7C3-T0-6xX"/>
                             <constraint firstItem="SWA-1m-6Yf" firstAttribute="top" secondItem="VUw-jc-0yf" secondAttribute="top" constant="30" id="EHy-Lf-4l3"/>
                             <constraint firstItem="F6M-OA-0Zy" firstAttribute="top" secondItem="SWA-1m-6Yf" secondAttribute="bottom" constant="22" id="Is2-s6-gi7"/>
+                            <constraint firstItem="nKc-nv-RFy" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="fTB-Mv-lCS"/>
                             <constraint firstItem="F6M-OA-0Zy" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="pRp-Oo-A5e"/>
                             <constraint firstItem="DYT-71-WsT" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="tHr-mE-ZPV"/>
                             <constraint firstItem="DYT-71-WsT" firstAttribute="top" secondItem="F6M-OA-0Zy" secondAttribute="bottom" constant="24" id="uvf-xh-mCI"/>

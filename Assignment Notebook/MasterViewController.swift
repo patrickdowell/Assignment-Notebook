@@ -46,8 +46,8 @@ class MasterViewController: UITableViewController {
             let subjectTextField = alert.textFields![1] as UITextField
             let dueDateTextField = alert.textFields![2] as UITextField
             let descriptionTextField = alert.textFields![3] as UITextField
-            let assigment = Assignment(title: titleTextField.text!, subject: subjectTextField.text!, dueDate: dueDateTextField.text!, description: descriptionTextField.text!)
-            self.assignments.append(assigment)
+            let assignments = Assignment(title: titleTextField.text!, subject: subjectTextField.text!, dueDate: dueDateTextField.text!, description: descriptionTextField.text!)
+            self.assignments.append(assignments)
             self.tableView.reloadData()
         }
         alert.addAction(insertAction)
@@ -101,7 +101,7 @@ class MasterViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
-        let objectToMove = cities.remove(at: sourceIndexPath.row)
+        let objectToMove = assignments.remove(at: sourceIndexPath.row)
         assignments.insert(objectToMove, at: destinationIndexPath.row)
     }
     
