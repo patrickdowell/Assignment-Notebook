@@ -13,7 +13,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var subjectTextField: UITextField!
     @IBOutlet weak var dueDateTextField: UITextField!
-    @IBOutlet weak var descriptionTextField: UITextField!
+    @IBOutlet weak var descriptionTextView: UITextView!
     
     var detailItem: Assignment? {
         didSet {
@@ -35,7 +35,7 @@ class DetailViewController: UIViewController {
                 titleTextField.text = assignment.title
                 subjectTextField.text = assignment.subject
                 dueDateTextField.text = assignment.dueDate
-                descriptionTextField.text = assignment.description
+                descriptionTextView.text = assignment.description
             }
         }
     }
@@ -44,7 +44,7 @@ class DetailViewController: UIViewController {
             assignment.title = titleTextField.text!
             assignment.subject = subjectTextField.text!
             assignment.dueDate = dueDateTextField.text!
-            assignment.description = descriptionTextField.text!
+            assignment.description = descriptionTextView.text!
         }
     }
     

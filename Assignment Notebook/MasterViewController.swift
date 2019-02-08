@@ -45,8 +45,8 @@ class MasterViewController: UITableViewController {
             let titleTextField = alert.textFields![0] as UITextField
             let subjectTextField = alert.textFields![1] as UITextField
             let dueDateTextField = alert.textFields![2] as UITextField
-            let descriptionTextField = alert.textFields![3] as UITextField
-            let assignments = Assignment(title: titleTextField.text!, subject: subjectTextField.text!, dueDate: dueDateTextField.text!, description: descriptionTextField.text!)
+            let descriptionTextView = alert.textFields![3] 
+            let assignments = Assignment(title: titleTextField.text!, subject: subjectTextField.text!, dueDate: dueDateTextField.text!, description: descriptionTextView.text!)
             self.assignments.append(assignments)
             self.tableView.reloadData()
         }
