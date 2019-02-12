@@ -35,62 +35,76 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Subject" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F6M-OA-0Zy">
-                                <rect key="frame" x="112.5" y="146" width="150" height="30"/>
+                                <rect key="frame" x="32.5" y="198" width="310" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="Hef-g6-2h6"/>
+                                    <constraint firstAttribute="width" constant="310" id="Hef-g6-2h6"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="NbL-eR-PmI"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="bkg-8B-7ZW"/>
                                     <constraint firstAttribute="height" constant="30" id="xoZ-7g-wgZ"/>
                                 </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.3905859284" blue="0.032168162059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Due Date" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DYT-71-WsT">
-                                <rect key="frame" x="112.5" y="200" width="150" height="30"/>
+                                <rect key="frame" x="38.5" y="291" width="298" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="dFN-2e-qBd"/>
-                                    <constraint firstAttribute="width" constant="150" id="eHd-ca-Ggg"/>
+                                    <constraint firstAttribute="width" constant="298" id="eHd-ca-Ggg"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="wHx-W4-E0c"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="zN2-rS-cq4"/>
                                 </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fia-wc-djw">
-                                <rect key="frame" x="67.5" y="260" width="240" height="165"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="kzq-wZ-1td"/>
-                                    <constraint firstAttribute="height" constant="165" id="tvg-by-0GH"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SWA-1m-6Yf">
-                                <rect key="frame" x="75" y="95" width="224" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SWA-1m-6Yf">
+                                <rect key="frame" x="38.5" y="104" width="298" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="0Ux-8e-djb"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Zkm-WU-DoP"/>
                                     <constraint firstAttribute="height" constant="30" id="caM-wr-B99"/>
-                                    <constraint firstAttribute="width" constant="150" id="kIV-Gp-uug"/>
+                                    <constraint firstAttribute="width" constant="298" id="kIV-Gp-uug"/>
                                 </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.1490728113" blue="0.09125753298" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notebook-and-pencil-eps-vector_k12135881" translatesAutoresizingMaskIntoConstraints="NO" id="1us-fQ-6c8">
+                                <rect key="frame" x="102" y="510" width="171" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="KRW-wK-pGm"/>
+                                    <constraint firstAttribute="width" constant="171" id="WyZ-tx-JrW"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fia-wc-djw">
+                                <rect key="frame" x="67.5" y="356" width="240" height="127"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="kzq-wZ-1td"/>
+                                    <constraint firstAttribute="height" constant="127" id="tvg-by-0GH"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="0.27099456620256035" blue="0.78627917763509525" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="SWA-1m-6Yf" firstAttribute="top" secondItem="VUw-jc-0yf" secondAttribute="top" constant="30" id="EHy-Lf-4l3"/>
-                            <constraint firstItem="F6M-OA-0Zy" firstAttribute="top" secondItem="SWA-1m-6Yf" secondAttribute="bottom" constant="22" id="Is2-s6-gi7"/>
+                            <constraint firstItem="VUw-jc-0yf" firstAttribute="bottom" secondItem="1us-fQ-6c8" secondAttribute="bottom" constant="29" id="26q-QK-9q9"/>
+                            <constraint firstItem="SWA-1m-6Yf" firstAttribute="top" secondItem="VUw-jc-0yf" secondAttribute="top" constant="40" id="EHy-Lf-4l3"/>
+                            <constraint firstItem="F6M-OA-0Zy" firstAttribute="top" secondItem="SWA-1m-6Yf" secondAttribute="bottom" constant="64" id="Is2-s6-gi7"/>
+                            <constraint firstItem="DYT-71-WsT" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="RUl-5X-ISg"/>
+                            <constraint firstItem="SWA-1m-6Yf" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="WSN-vD-CgB"/>
+                            <constraint firstItem="fia-wc-djw" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="aeu-aL-Zoz"/>
+                            <constraint firstItem="F6M-OA-0Zy" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="cee-T9-7CC"/>
                             <constraint firstItem="fia-wc-djw" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="k6y-R0-CFi"/>
                             <constraint firstItem="F6M-OA-0Zy" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="pRp-Oo-A5e"/>
                             <constraint firstItem="DYT-71-WsT" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="tHr-mE-ZPV"/>
-                            <constraint firstItem="DYT-71-WsT" firstAttribute="top" secondItem="F6M-OA-0Zy" secondAttribute="bottom" constant="24" id="uvf-xh-mCI"/>
+                            <constraint firstItem="DYT-71-WsT" firstAttribute="top" secondItem="F6M-OA-0Zy" secondAttribute="bottom" constant="63" id="uvf-xh-mCI"/>
                             <constraint firstItem="SWA-1m-6Yf" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="xNT-vN-3fL"/>
-                            <constraint firstItem="fia-wc-djw" firstAttribute="top" secondItem="DYT-71-WsT" secondAttribute="bottom" constant="30" id="xzV-OJ-6fk"/>
+                            <constraint firstItem="fia-wc-djw" firstAttribute="top" secondItem="DYT-71-WsT" secondAttribute="bottom" constant="35" id="xzV-OJ-6fk"/>
+                            <constraint firstItem="1us-fQ-6c8" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="yzN-8m-4o6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>
                     </view>
@@ -181,6 +195,9 @@
             <point key="canvasLocation" x="-45" y="129"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="notebook-and-pencil-eps-vector_k12135881" width="170" height="164"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="6S0-TO-JiA"/>
     </inferredMetricsTieBreakers>
